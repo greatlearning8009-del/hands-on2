@@ -19,7 +19,7 @@ except RepositoryNotFoundError:
     print(f"Space '{repo_id}' created.")
 
 api.upload_folder(
-    folder_path="/content/drive/My Drive/Great Learning/Module 10 - Advanced Machine Learning and MLOps/Week 2 Introduction to MLOps and DevOps/mlops/data",
+    folder_path="folder_path="mlops/data"",
     repo_id=repo_id,
     repo_type=repo_type,
 )
